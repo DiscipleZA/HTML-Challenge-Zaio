@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="Survey, Form, FCC, freeCodeCamp">
+        <meta name="description" content="A Survey Form">
+        <title id="title">FCC: Survey Form</title>
+        <link rel="icon" href="http://www.jonathantneal.com/wp-content/uploads/2013/01/happy-doctor.png">
+    </head>
+        <style>
+        </style>
+    <body>
+        <div>
+            <h1 id="title">Tindi</h1>
+        </div>
+            <container>
+        <div>
+            <form id="survey-form" action="#"> 
+                <p id="description"> Please enter your information below</p>
+        </div>
+         <div>
+            <label id="name" for="name">* Name:</label>
+            <input id="name-label" autofocus type="text" placeholder="Enter your name" required>
+        </div>
+            <br>
+         <div>
+            <label id="surname" for="surname">* Surname:</label>
+            <input id="surname-label" autofocus type="text" placeholder="Enter your surname" required>
+        </div>
+            <br>
+        <div>
+            <label id="gender" for="gender">* Gender:</label>
+            <input type="radio" name="gender" value="one">
+                    <label for="one">male</label>
+                    <input type="radio" name="gender" value="two">
+                    <label for="two">female</label>
+        </div>
+            <br>
+        <div>
+            <label id="number" for="age">* Age:</label>
+            <input id="number-label" min="1" max="125" type="number" placeholder="Age" required>
+            </div>
+        <br>
+        <div>
+            <button id="submit" type="submit">Submit</button>
+        </div>
+    </form>
+    </container>
+    </body>
+    </html>
